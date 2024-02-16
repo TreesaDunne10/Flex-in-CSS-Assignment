@@ -1,0 +1,22 @@
+Solution of Question 1.
+
+The main difference between the CSS Flexbox layout model and the CSS Grid layout is their layout approach.
+Flexbox Layout - Flexbox is designed for one-dimensional layouts(either row or column), making it suitable for arranging items in a single direction.
+
+Grid Layout - Grid, on the other hand, is a two-dimensional layout system, allowing you to define both rows and columns.
+
+Use Flexbox when dealing with content in a linear direction, like navigation menus or a row of items. Choose Grid when you need a more complex layout with both rows and columns, such as a full-page grid or specific alignment requirements for items in both directions. They can also be combined for advanced layouts, utizing each models strengths.
+
+
+Solution of Question 2.
+
+Following are the roles of key properties in the Flexbox layout model:
+1. Justify-content - This property in the flexbox layout model determines how the items are distributed along the main axis. It defines the alignment of items within the flex container. Values like 'flex-start', 'flex-end', 'center', 'space-between', and 'space-around' adjust the spacing between or around items, influencing their positioning along the main axis.
+
+2. Align-items - In the flexbox model, 'align-items' sets the alignment of items along the cross axis. It determines how items are positioned in the container vertically. Options like 'flex-start', 'flex-end', 'center' control the vertical placement of items within the flex container.
+
+3. Gap - Although 'gap' is more associated with the grid layout, in the context of flexbox, it refers to the space between flex items. Its a shortand property for 'row-gap' and 'column-gap', defining the spacing between items along the main axis and cross axis, respectively.
+
+4. Flex-Direction - This property establishes the main axis of the flex container and defines the direction in which the items are placed. Values like 'row', 'row-reverse', 'column', and 'column-reverse' dictate whether the items are arranged horizontally or vertically and in what order.
+
+5. Flex-wrap - In the flexbox layout model, 'flex-wrap' determines whether the items should wrap to a new line if they exceed the container's size along the main axis. Values like 'nowrap', 'wrap', and 'wrap-reverse' control how flex items behave when there's insufficient space along the main axis.
